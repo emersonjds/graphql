@@ -1,0 +1,12 @@
+type Pessoa {
+    id: ID!
+    name: String!
+    idade: Int!
+    posts: [Post!]!
+}
+
+type Post {
+    id: ID!
+    title: String!
+    autos: Pessoa!
+}
