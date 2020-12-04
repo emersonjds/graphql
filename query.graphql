@@ -1,0 +1,9 @@
+{
+    allPersons {
+        name,
+        age,
+        posts {
+            autor
+        }
+    }
+}
